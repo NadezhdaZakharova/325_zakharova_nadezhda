@@ -10,7 +10,7 @@ def eqv(a, b, c):
         eps=0.0001*b
     else:
         eps=0.0001*b   
-    if eps > (c - a - b):
+    if eps > abs(c - a - b):
         return True
     else:
         return False

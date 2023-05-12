@@ -8,7 +8,6 @@ def zabor(M):
             else:
                 M[i] = M[i].upper()
             f = f + 1
-            print (f%2)
     return
 zabor(M)
 print (M)

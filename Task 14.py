@@ -14,5 +14,5 @@ while True:
     if g==num:
         print("Верно!")
         with open("C:\\Users\\Надежда\\Documents\\GitHub\\125_zakharova_nadezhda\\game.txt","a") as f:
-            f.write(f"\n{n}, you got nimber for {kol} steps!.\n Answer - {g}\n")
+            f.write(f"\n{n}, you got the number for {kol} steps!\n Answer - {g}\n")
             break

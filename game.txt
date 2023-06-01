@@ -11,3 +11,6 @@ j;, вы угадали число за 2 попыток!
 
 oo, you got nimber for 5 steps!.
  Answer - 10
+
+kot, you got the number for 4 steps!
+ Answer - 87

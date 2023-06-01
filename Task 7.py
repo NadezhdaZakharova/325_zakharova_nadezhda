@@ -6,7 +6,6 @@ def search_substr(subst, st):
     if subst in st:
         print ("«Есть контакт!»")
     else:
-
         print ("«Мимо!»")
     return
 search_substr (subst, st)

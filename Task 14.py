@@ -8,11 +8,11 @@ while True:
     kol = kol +1
 
     if g>num:
-        print("Подсказка: данное число больше верного ответа")
+        print("Подсказка: данное число меньше верного ответа")
     if g<num:
-        print("Подсказка: это число меньше верного ответа")
+        print("Подсказка: это число больше верного ответа")
     if g==num:
         print("Верно!")
-        with open("game.txt","a") as f:
-            f.write(f"\n{ima}, вы угадали число за {kol} попыток!.\n Верный ответ - {g}\n")
+        with open("C:\\Users\\Надежда\\Documents\\GitHub\\125_zakharova_nadezhda\\game.txt","a") as f:
+            f.write(f"\\n{ima}, вы угадали число за {kol} попыток!\\n Верный ответ - {g}\\n")
             break

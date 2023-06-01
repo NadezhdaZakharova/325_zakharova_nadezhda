@@ -1,7 +1,7 @@
 n = input("Введите имя: ")
 import random 
 g = random.randint(1, 100)
-ima = input("Загадано число от 1 до 100")
+trick = input("Загадано число от 1 до 100")
 kol = 0
 while True:
     num = int(input("Введите число"))
@@ -14,5 +14,5 @@ while True:
     if g==num:
         print("Верно!")
         with open("C:\\Users\\Надежда\\Documents\\GitHub\\125_zakharova_nadezhda\\game.txt","a") as f:
-            f.write(f"\\n{ima}, вы угадали число за {kol} попыток!\\n Верный ответ - {g}\\n")
+            f.write(f"\n{n}, you got nimber for {kol} steps!.\n Answer - {g}\n")
             break
